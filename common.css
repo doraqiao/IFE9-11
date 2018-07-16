@@ -1,0 +1,35 @@
+.wrap {
+    overflow: hidden;
+    width: 1030px;  margin: 0 auto;
+}
+.icon {
+    display: inline-block;
+    background: url('Img/icon.png');
+}
+.fl_left {
+    float: left;
+}
+.fl_right {
+    float: right;
+}
+.size16 {
+    font-size: 16px;
+}
+.size42 {
+    font-size: 42px;
+}
+.color_white {
+    color: #fff;
+}
+.color_141414 {
+    color: #141414;
+}
+.margin_top100 {
+    margin-top: 100px;
+}
+.margin_right30{
+    margin-right: 30px;
+}
+.margin_top45{
+    margin-top: 45px;
+}

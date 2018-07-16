@@ -1,0 +1,377 @@
+.top{
+    background: url("Img/top_bg.jpg");
+}
+.top_des{
+    padding-top: 122px;
+    text-align: center;
+}
+.top_des h1{
+    font-size: 62px;
+    line-height: 148px;
+}
+.top_des p{
+    width: 766px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.top_signUp{
+    width: 970px;
+    height: 250px;
+    margin: 104px 0 210px 0;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.top_signUp h4{
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.top_signUp p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: .5;
+}
+.signUpText{
+    width: 292px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid rgba(255,255,255,.2);
+    background: transparent;
+}
+.signUpButton{
+    width: 125px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    background: #ffffff;
+    cursor: pointer;
+}
+.sectionOne_des{
+    margin-top: 90px;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.sectionOne_title{
+    width: 675px;
+    margin: 0 auto;
+    line-height: 52px;
+    text-align: center;
+}
+.sectionOne_item{
+    width: 424px;
+    height: 90px;
+    margin: 80px 0 0 80px;
+}
+.icon-mobile{
+    width: 30px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+    background-position: 0 0;
+}
+.icon-right{
+    width: 40px;
+    height: 38px;
+    margin: 10px 0 0 5px;
+    background-position: -87px 0;
+}
+.icon-pen{
+    width: 48px;
+    height: 50px;
+    margin-top: 10px;
+    background-position: -34px 0;
+}
+.icon-regulation{
+    width: 50px;
+    height: 42px;
+    margin-top: 10px;
+    background-position: -132px 0;
+}
+.item_title{
+    font-size: 20px;
+    font-weight: normal;
+}
+.item_right{
+    margin-left: 80px;
+}
+.item_right p{
+    margin-top: 25px;
+}
+.features{
+    margin-top: 114px;
+    background: url("Img/supportive_bg.jpg") center;
+    overflow: hidden;
+}
+.features_title{
+    width: 366px;
+    margin: 184px 0 48px 0;
+    line-height: 52px;
+}
+.features_des{
+    width: 367px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.btn{
+    width: 240px;
+    height: 60px;
+    margin: 58px 0 150px 0;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn_check{
+    background: #ffffff;
+}
+.btn_try{
+    background: transparent;
+    margin-left: 25px;
+}
+.title{
+    text-align: center;
+}
+.icon_sing{
+    width: 120px;
+    height: 35px;
+    background-position: 0 -53px;
+}
+.icon_hero{
+    width: 75px;
+    height: 34px;
+    background-position: -189px -1px;
+}
+.icon_pentland{
+    width: 117px;
+    height: 31px;
+    background-position: -131px -53px;
+}
+.sectionThree_item{
+    width: 264px;
+    margin: 88px 100px 0 0;
+    text-align: center;
+}
+.sectionThree_item:last-child{
+    margin-right: 0;
+}
+.sectionThree_item p{
+    line-height: 26px;
+    margin-top: 50px;
+}
+.container::after{
+    display: block;
+    height: 1px;
+    margin: 100px 0;
+    background: rgba(20,20,20,.1);
+    content: "";
+}
+
+.sectionFour_item{
+    height: 350px;
+}
+.sectionFour_itemTitle{
+    width: 320px;
+    margin: 74px 0 32px 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.sectionFour_itemDes{
+    width: 306px;
+    line-height: 28px;
+}
+/*.sectionFour::after{
+    display: block;
+    height: 1px;
+    margin: 20px 0 0 0;
+    background: rgba(20,20,20,.1);
+    content: "";
+}*/
+
+.sectionFive_des{
+    width: 695px;
+    margin: 36px auto;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.teacher_item{
+    width: 470px;
+    height: 340px;
+    margin: 30px 0 0 30px;
+}
+.teacher_item-hover{
+    display: none;
+    position: relative;
+    left: 0;
+    top: -344px;
+    width: 470px;
+    height: 340px;
+    text-align: center;
+    background: rgba(0,0,0,.65);
+}
+.teacher_item:hover >.teacher_item-hover{
+    display:block;
+}
+.teacher_name{
+    padding-top: 88px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 56px;
+}
+.teacher_des{
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: .5;
+}
+.teacherIcon{
+    width: 51px;
+    height: 54px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.icon_f{
+    background-position: 0 -95px;
+}
+.icon_t{
+    background-position: -55px -95px;
+}
+.icon_ins{
+    background-position: -111px -95px;
+}
+
+
+.contact_left{
+    width: 470px;
+    height: 560px;
+    text-align: center;
+    border: 1px solid rgba(20,20,20,.1);
+    border-radius: 10px;
+}
+.contactForm_title{
+    font-weight: normal;
+    line-height: 80px;
+    letter-spacing: 2px;
+}
+.form_input{
+    width: 370px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    border: 1px solid rgba(38,35,33,.2);
+}
+.form_msg{
+    height: 144px;
+    resize: none;
+}
+.form_btn{
+    width: 370px;
+    height: 50px;
+    font-size: 12px;
+    background: #141414;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.contact_right{
+    width: 470px;
+    height: 560px;
+}
+.contact_title{
+    margin-top: 20px;
+    line-height: 100px;
+}
+.contact_des {
+    width: 351px;
+    height: 68px;
+    margin-bottom: 70px;
+}
+.icon_add{
+    width: 19px;
+    height: 25px;
+    margin: 8px;
+    background-position: -168px -95px;
+}
+.icon_tel{
+    width: 24px;
+    height: 24px;
+    margin: 3px 8px 0;
+    background-position: -195px -95px;
+}
+.icon_mail{
+    clear: both;
+    width: 24px;
+    height: 19px;
+    margin: 5px 8px 0;
+    background-position: -169px -123px;
+}
+.contact_icon{
+    margin-bottom: 40px;
+}
+.contact_icon dd{
+    line-height: 26px;
+}
+.bottom{
+    margin-top: 70px;
+    padding: 88px 0 124px;
+    background-color: #141414;
+}
+.bottom_title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+.bottom .bottom_item{
+    margin-right: 148px;
+}
+.bottom .bottom_item:last-child{
+    margin-right: 0;
+}
+.bottom .bottom_item dd a{
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 46px;
+    color: rgba(255,255,255,.3);
+}
+.bottom .bottom_item p{
+    margin-top: 6px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255,255,255,.3);
+}
+.bottom_icon{
+    opacity: .3;
+    margin: 45px 20px 0 0;
+}
+.icon_twitter{
+    width: 17px;
+    height: 14px;
+    background-position: -224px -98px;
+}
+.icon_facebook{
+    width: 9px;
+    height: 18px;
+    background-position: -247px -98px;
+}
+.icon_google{
+    width: 24px;
+    height: 15px;
+    background-position: -197px -125px;
+}
+.icon_tumbler{
+    width: 10px;
+    height: 16px;
+    background-position: -227px -124px;
+}
+.icon_pinterest{
+    width: 14px;
+    height: 17px;
+    background-position: -248px -125px;
+}
+.icon_linkedIn{
+    width: 16px;
+    height: 16px;
+    background-position: -253px -55px;
+}
